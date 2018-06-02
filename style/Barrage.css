@@ -1,0 +1,53 @@
+video{
+	object-fit:fill;
+	margin:0 auto;
+	width: 100%;
+	overflow:hidden;
+}
+.bullet{
+	background-color:none;
+	position:absolute;
+	white-space: nowrap;
+
+	/*Width: do not define the width with numbers*/
+	min-width:25px;
+	width:auto;
+	
+	/*font */
+	color:white;
+	font-size:25px;
+	-webkit-text-stroke-color: black;
+	font-weight:bold;
+	-webkit-text-stroke-width: 1.2px;
+}
+::-webkit-full-screen {
+  min-width: 95%;
+  min-height: 95%;
+  width:150%;
+  height:auto;
+}
+::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
+.btnBarrage{
+	margin-left:0.05%;
+	background-color:teal;
+	height:6vh;
+	display: inline-block;
+	vertical-align:bottom;
+	
+}
+.barrangeInput{
+	vertical-align:bottom;
+	height:6vh;
+	width:45%;
+	display:inline-block;
+	
+}
+#range-limit{
+	width:8%;
+}
+.rangeLabel{
+	margin-left:2%;
+	font-size:10px;
+}
