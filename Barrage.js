@@ -3,7 +3,7 @@
 		* Assumptions:
 			Fixed Font Size:15;
 			Limited Length: 1~32;
-			Fixed Life time: 3000 ms;
+			Fixed Life time: 5000 ms;
 		* Structures:
 			Content: text of Barrage
 			TimeStart: When it appears
